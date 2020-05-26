@@ -18,6 +18,7 @@ public class llll extends Application {
 	private PasswordField job;
 	@FXML
 	private Button show;
+	///////////razi123123
 	///////////////razihalbi
 	@Override
 	public void start(Stage primaryStage) throws IOException {

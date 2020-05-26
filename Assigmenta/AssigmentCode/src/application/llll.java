@@ -18,7 +18,7 @@ public class llll extends Application {
 	private PasswordField job;
 	@FXML
 	private Button show;
-	
+	///////////////razihalbi
 	@Override
 	public void start(Stage primaryStage) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("/application/lll.fxml"));

@@ -1,0 +1,48 @@
+package Entity;
+
+import java.util.Date;
+
+public class Receipt {
+
+	private Date dateAndHour;
+	private Product product;
+	private int quantity;
+	public Receipt(Date dateAndHour, Product product, int quantity, int stationId, int price) {
+		this.dateAndHour = dateAndHour;
+		this.product = product;
+		this.quantity = quantity;
+		this.stationId = stationId;
+		this.price = price;
+	}
+	private int stationId;
+	private int price;
+	public Product getProduct() {
+		return product;
+	}
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public int getStationId() {
+		return stationId;
+	}
+	public void setStationId(int stationId) {
+		this.stationId = stationId;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public Date getDateAndHour() {
+		return dateAndHour;
+	}
+	
+	
+}

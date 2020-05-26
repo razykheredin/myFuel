@@ -2,15 +2,15 @@ package Entity;
 
 
 
- enum product{
+ enum productType{
 	gas,disel,cooterFuel,homeHeatingFuel
 };
 public class Product {
-private product product;
-public product getProduct() {
+private productType product;
+public productType getProduct() {
 	return product;
 }
-public void setProduct(product product) {
+public void setProduct(productType product) {
 	this.product = product;
 }
 public int getPrice() {
@@ -28,7 +28,7 @@ public void setRate(Rates rate) {
 }
 private int price;
 private Rates rate;
-public Product(product product, int price, Rates rate) {
+public Product(productType product, int price, Rates rate) {
 	
 	this.product = product;
 	this.price = price;

@@ -5,7 +5,7 @@ enum Job {
 
 public class Worker extends User{
 private int Workernum;
-private Job job;
+private Job job;//8888
 
 	public Worker(String username, String password, status stat, String name, String surname, String Email,Job job,int workernum) {
 		super(username, password, stat, name, surname, Email);
